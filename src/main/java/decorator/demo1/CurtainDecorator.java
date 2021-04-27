@@ -1,11 +1,11 @@
-package main.java.decorator.demo1;
+package decorator.demo1;
 
 /**
  * @Author: kevin
  * @Date: 2021/4/23
  * @description: 窗帘装饰类
  */
-public class CurtainDecorator extends BaseAbstractDecorator{
+public class CurtainDecorator extends BaseAbstractDecorator {
 
     public CurtainDecorator(IDecorator decorator) {
         super(decorator);

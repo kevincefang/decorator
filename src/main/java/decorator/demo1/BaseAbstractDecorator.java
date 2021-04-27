@@ -1,11 +1,11 @@
-package main.java.decorator.demo1;
+package decorator.demo1;
 
 /**
  * @Author: kevin
  * @Date: 2021/4/23
  * @description: 基本装饰类
  */
-public abstract class BaseAbstractDecorator implements IDecorator{
+public abstract class BaseAbstractDecorator implements IDecorator {
 
     private IDecorator decorator;
 

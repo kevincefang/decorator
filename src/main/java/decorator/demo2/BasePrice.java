@@ -1,4 +1,4 @@
-package main.java.decorator.demo2;
+package decorator.demo2;
 
 import java.math.BigDecimal;
 
@@ -7,7 +7,7 @@ import java.math.BigDecimal;
  * @Date: 2021/4/23
  * @description:
  */
-public class BasePrice implements IBasePrice{
+public class BasePrice implements IBasePrice {
 
 
     @Override

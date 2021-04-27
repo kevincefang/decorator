@@ -1,4 +1,4 @@
-package main.java.decorator.demo1;
+package decorator.demo1;
 
 /**
  * @Author: kevin

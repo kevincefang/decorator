@@ -1,4 +1,4 @@
-package main.java.decorator.demo2;
+package decorator.demo2;
 
 import java.math.BigDecimal;
 
@@ -7,7 +7,7 @@ import java.math.BigDecimal;
  * @Date: 2021/4/23
  * @description: 计算价格抽象类
  */
-public abstract class BaseAbstractPriceDecorator implements IBasePrice{
+public abstract class BaseAbstractPriceDecorator implements IBasePrice {
 
     private IBasePrice priceDecorator;
 

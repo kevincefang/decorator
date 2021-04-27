@@ -1,4 +1,4 @@
-package main.java.decorator.demo2;
+package decorator.demo2;
 
 import java.math.BigDecimal;
 import java.util.Map;
@@ -12,7 +12,7 @@ public class PromotionFactory {
 
     public static BigDecimal getPayMoney(OrderDetail orderDetail) {
         IBasePrice basePrice = new BasePrice();
-        Map<PromotionType,SupportPromotions> promotionsMap = orderDetail.getGoods().getSupportPromotions();
+        Map<PromotionType, SupportPromotions> promotionsMap = orderDetail.getGoods().getSupportPromotions();
         if (promotionsMap != null && promotionsMap.size() > 0){
            for (PromotionType promotionType : promotionsMap.keySet()){
                 if (PromotionType.COUPON == promotionsMap.get(promotionType).getPromotionType()){

@@ -1,4 +1,4 @@
-package main.java.decorator.demo2;
+package decorator.demo2;
 
 import java.math.BigDecimal;
 import java.util.List;
